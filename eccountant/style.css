@@ -1,0 +1,188 @@
+
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background: url(/img/bg/body.bg.jpg) center center /cover no-repeat;
+   min-height: 1200px;
+  position: relative;
+
+}
+
+ .sidepanel {
+    position:fixed;
+    top: 30px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    height: 140px;
+   
+}
+ .sidepanel .sidepanel__mail {
+    font-weight:bold;
+ 
+}
+.about .about_wrapper{
+    height: 300px;
+    display: flex;
+    grid-template-columns: 400px 670px;
+    grid-template-rows: 300px;
+    column-gap: 50px;
+   margin: 20px 0 20px 0;
+   
+}
+.about .about_wrapper .about_img {
+  padding-top: 100px;
+
+}
+
+.about .experience{
+    display: block;
+
+}
+.experience .title{
+    font-weight: 50px;
+    text-align: center;
+    color:darkcyan;
+    text-decoration-style: solid;
+    font-size: 60px;
+}
+.experience .my_experience {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+}
+.about .about_descr{
+    display: block;
+    margin-top: 20px;
+}
+.about .about_descr .list_next {
+    text-align: left;
+    font-size: 20px;
+}
+.services .services_wrapper {
+    display: block;
+    margin-top: 180px;
+    text-align: center;
+}
+.services .services_wrapper .title_services{
+    font-weight: 50px;
+    text-align: center;
+    color:darkcyan;
+    text-decoration-style: solid;
+    font-size: 40px;
+}
+.services .services_wrapper .service_about .subtitle_service{
+    line-height: 21px;
+    color:brown;
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 20px;
+
+}
+.services .services_wrapper .services_text{
+   font-style: oblique;
+   font-weight: bold;
+   line-height: 21px;
+   font-size: 15px;
+
+}
+
+.price .about_price{
+    display: block;
+    background-color:beige;
+    height: 340px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 200px 10px 200px;
+}
+.price .about_price .prise_subtitle{
+    font-weight: 50px;
+    text-align: center;
+    color:darkcyan;
+    text-decoration-style: solid;
+    font-size: 40px;
+}
+.price .about_price .price_text{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+}
+.price .about_price .price_table{
+width: 100%;
+border: solid;
+margin-top: 20px;
+margin-left: 20px;
+
+}
+th, td {
+border: 3px solid;
+text-align: center;
+padding: 20px;
+font-weight: bold;
+
+}
+tr:hover {
+background-color:coral;
+}
+
+.form_section{
+    height: 350px;
+}
+.form_section .form_title{
+    text-align: center;
+    color:red;
+    font-size: 40px;
+    font-weight: bold;
+}
+.form_section .form_subtitle{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: inherit;
+}
+.form_section .next_form{
+    display: flex;
+    justify-content: center;
+    align-items:space-between;
+    margin-top: 20px;
+
+}
+form {
+    display: grid;
+   justify-content: space-between;
+   row-gap: 30px;
+}
+.form_section .next_form .form_but{
+    
+    text-align: center;
+    text-decoration: solid;
+    font-weight: bold;
+  background-color:aquamarine;
+    width: 250px;
+    height: 50px;
+    border:dashed ;
+    cursor: pointer;
+
+}
+
+.form_section .next_form .form_but:hover{
+    background-color:chocolate;
+}
+.pageup {
+    display: block;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+
+}
+.pageup .imgup{
+    width: 100%;
+}
